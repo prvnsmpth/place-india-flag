@@ -152,8 +152,8 @@ const chakra = {
   },
 }
 
-const TL_X = 260
-const TL_Y = 315
+const TL_X = 375
+const TL_Y = 316
 
 export default function Flag() {
   const [selected, setSelected] = useState<SelectedState>(chakra)
