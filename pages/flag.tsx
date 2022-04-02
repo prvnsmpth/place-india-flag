@@ -155,7 +155,7 @@ const chakra = {
 const TL_X = 260
 const TL_Y = 315
 
-export function Flag() {
+export default function Flag() {
   const [selected, setSelected] = useState<SelectedState>(chakra)
 
   // function handleClick(evt: React.MouseEvent<HTMLElement>, i: number, j: number) {
