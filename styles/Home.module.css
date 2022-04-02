@@ -117,7 +117,7 @@
   border-collapse: collapse;
 }
 
-.cell {
+.cell, .colorCell {
   border: 1px solid black;
   width: 40px;
   height: 40px;
@@ -128,10 +128,17 @@
   background:  #3498db
 }
 
-.cell:hover {
+.cell:hover, .colorCell:hover {
   border: 3px solid black
 }
 
+.colorCell {
+  margin: 5px
+}
+
+.colorCell.selected {
+  border: 3px solid black
+}
 
 @media (max-width: 600px) {
   .grid {
