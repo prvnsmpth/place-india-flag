@@ -113,6 +113,26 @@
   margin-left: 0.5rem;
 }
 
+.flag {
+  border-collapse: collapse;
+}
+
+.cell {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cell.selected {
+  background:  #3498db
+}
+
+.cell:hover {
+  border: 3px solid black
+}
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
