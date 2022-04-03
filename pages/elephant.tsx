@@ -10,7 +10,7 @@ export interface SelectedState {
 
 const ElephantData: SelectedState = ElephantDataUntyped
 
-const WIDTH = 33
+const WIDTH = 39
 const HEIGHT = 35
 const TL_X = 493
 const TL_Y = 308
