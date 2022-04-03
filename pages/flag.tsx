@@ -152,7 +152,7 @@ const chakra = {
   },
 }
 
-const TL_X = 375
+const TL_X = 380
 const TL_Y = 316
 
 export default function Flag() {
